@@ -1,0 +1,13 @@
+{
+  "blocked_ips": [
+    ""
+  ],
+  "blocked_ports": [
+    23,
+    445
+  ],
+  "allowed_protocols": [
+    "TCP",
+    "UDP"
+  ]
+}
