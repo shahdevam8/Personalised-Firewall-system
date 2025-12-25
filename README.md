@@ -61,3 +61,14 @@ This project is designed for **learning firewall internals, packet inspection, a
 ├── main.py
 ├── requirements.txt 
 └── README.md 
+### 1 Create Virtual Environment (MANDATORY)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+### 2 Installation
+pip install --upgrade pip
+pip install -r requirements.txt
+### 3 How to run
+sudo su
+source venv/bin/activate
+python3 main.py
