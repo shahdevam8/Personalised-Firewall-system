@@ -66,9 +66,11 @@ This project is designed for **learning firewall internals, packet inspection, a
 python3 -m venv venv
 source venv/bin/activate
 ### 2 Installation
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ### 3 How to run
+```bash
 sudo su
 source venv/bin/activate
 python3 main.py
