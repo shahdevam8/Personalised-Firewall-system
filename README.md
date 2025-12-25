@@ -46,3 +46,18 @@ This project is designed for **learning firewall internals, packet inspection, a
 
 ## 📁 Project Folder Structure
 
+│
+├── core/
+│ ├── packet_sniffer.py # Captures and analyzes packets
+│ ├── rule_engine.py # Loads and validates firewall rules
+│ ├── firewall_actions.py # iptables actions + logging
+│
+├── rules/
+│ └── firewall_rules.json # Firewall rules (IPs, ports, protocols)
+│
+├── logs/
+│ └── traffic.log # Traffic activity logs
+│
+├── main.py
+├── requirements.txt 
+└── README.md 
