@@ -46,21 +46,22 @@ This project is designed for **learning firewall internals, packet inspection, a
 
 ## 📁 Project Folder Structure
 
+Personalised_Firewall_System/
 │
 ├── core/
-│ ├── packet_sniffer.py # Captures and analyzes packets
-│ ├── rule_engine.py # Loads and validates firewall rules
-│ ├── firewall_actions.py # iptables actions + logging
+│   ├── packet_sniffer.py        # Captures and analyzes network packets
+│   ├── rule_engine.py           # Loads and validates firewall rules
+│   └── firewall_actions.py      # Applies iptables rules and logs events
 │
 ├── rules/
-│ └── firewall_rules.json # Firewall rules (IPs, ports, protocols)
+│   └── firewall_rules.json      # User-defined firewall rules
 │
 ├── logs/
-│ └── traffic.log # Traffic activity logs
+│   └── traffic.log              # Logged firewall activity
 │
-├── main.py
-├── requirements.txt 
-└── README.md 
+├── main.py                      # Application entry point
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
 
 1 Create Virtual Environment (MANDATORY)
 ```bash
